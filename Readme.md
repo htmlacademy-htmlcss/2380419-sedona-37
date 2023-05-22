@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Василина Игнатенко](https://up.htmlacademy.ru/htmlcss/37/user/2380419).
-* Наставник: [Алексей Волошко](https://htmlacademy.ru/profile/id1655583).
+* Наставник: [Андрей Волошко](https://htmlacademy.ru/profile/id1655583).
 
 ---
 
