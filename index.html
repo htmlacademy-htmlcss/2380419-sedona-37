@@ -5,8 +5,10 @@
     <title>HTML Academy: Седона</title>
   </head>
   <body>
-    <header class="page-header">
-      <img class="logo" src="" alt="Sity of Sedona">
+    <header class="page-header" data-test="header">
+      <a class="navigation-link navigation-link-current" href="#">
+        <img class="logo" src="images/global/header-logo.svg" weight="140px" height="70.05px" alt="Sity of Sedona">
+      </a>
       <nav class="navigation">
         <ul class="navigation-list">
           <li class="navigation-list-item">
@@ -35,14 +37,14 @@
           <li class="navigation-user-item">
             <span class="visually-hidden">
               <a class="navigation-link" href="#">
-                Поиск
+                <img src="images/global/header-search.svg" width="18px" height="18px" alt="Поиск">
               </a>
             </span>
           </li>
           <li class="navigation-user-item">
             <span class="visually-hidden">
               <a class="navigation-link" href="#">
-                Избранное
+                <img src="images/global/header-favorites.svg" width="18px" height="17px" alt="Избранное">
               </a>
             </span>
           </li>
@@ -59,9 +61,11 @@
       </nav>
     </header>
 
-    <main class="page-main">
+    <main class="page-main" data-test="main">
       <h1 class="visually-hidden">"Седона"</h1>
-      <section class="advantages">
+      <img src="images/index/background-image.jpg" width="1200" alt="">
+      <img src="images/index/background-welcome.svg" width="458px" height="352px" alt="Welcome to Sedona">
+      <section class="advantages" data-test="advantages">
         <h2 class="visually-hidden">Преимущества</h2>
         <dl class="advantages-header-list">
           <dt class="advantages-header-term">
@@ -74,7 +78,7 @@
         <dl class="advantages-list">
             <dt class="advantages-term">Настоящий городок</dt>
             <dd class="advantages-defenition">Седона — не аттракцион для туристов, там течёт своя жизнь</dd>
-            <dd class="advantages-defenition-img"><img src="" alt="Вид из окна на прекрасный городок"></dd>        
+            <dd class="advantages-defenition-img"><img src="images/index/advantages-defenition-1.jpg" width="800px" height="385px" alt="Вид из окна на прекрасный городок"></dd>        
           
             <dt class="advantages-term">Небольшая площадь</dt>
             <dd class="advantages-defenition">Все достопримечательности находятся очень близко</dd>
@@ -87,7 +91,7 @@
 
             <dt class="advantages-term">Там есть мост дьявола</dt>
             <dd class="advantages-defenition">Да, по нему можно пройти! Если вы осмелитесь, разумеется</dd>
-            <dd class="advantages-defenition-img"><img src="" alt="Захватывающий вид на мост дьявола"></dd>        
+            <dd class="advantages-defenition-img"><img src="images/index/advantages-defenition-2.jpg" width="800px" height="385px" alt="Захватывающий вид на мост дьявола"></dd>        
         </dl>
       </section>
       <section class="services">
@@ -101,17 +105,21 @@
           </dd>
         </dl>  
         <dl class="services-list">
+          <dd class="services-icon"><img src="images/index/services-house.svg" width="75" height="72" alt=""></dd>
           <dt class="services-term">Жилье</dt>
           <dd class="services-defenition">Рекомендуем пожить в настоящем мотеле, всё как в кино!</dd>
-
+          
+          <dd class="services-icon"><img src="images/index/services-food.svg" width="75" height="72" alt=""></dd>
           <dt class="services-term">Еда</dt>
           <dd class="services-defenition">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</dd>
-
+          
+          <dd class="services-icon"><img src="images/index/services-souvenirs.svg" width="75" height="72" alt=""></dd>
           <dt class="services-term">Сувениры</dt>
-          <dd class="services-defenition">Не только китайского, но и настоящего местного производства!</dd>       
+          <dd class="services-defenition">Не только китайского, но и настоящего местного производства!</dd>
+                 
       </dl>
       </section>
-      <section class="search">
+      <section class="search" data-test="search">
         <h2 class="visually-hidden">Бронь гостиницы</h2>
         <dl class="search-header-list">
           <dt class="search-header-term">
@@ -124,9 +132,10 @@
         <a class="button button-search" href="hotels.html">"Поиск гостиницы в Седоне"</a> 
       </section>      
     </main>
-    <footer>
-      <section class="subscription">
+    <footer data-test="footer">
+      <section class="subscription" data-test="subscribe">
         <h2 class="visually-hidden">Давайте дружить</h2>
+        <img src="images/global/subscription-background.jpg" width="1200px" alt="">
         <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="post">
           <span>Подпишитесь на рассылку</span>
           <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
@@ -139,27 +148,24 @@
         <ul class="footer-social-list">
           <li class="footer-social-item">
             <a class="button" href="https://vk.com/htmlacademy">
-              <span class="visually-hidden">Vkontakte</span>
-              <img src="" alt="Логотип Vkontakte">         
+              <img src="images/global/footer-vk.svg" width="24.001px" height="14ph" alt="Vkontakte">         
             </a>
           </li>
           <li class="footer-social-item">
             <a class="button"  href="https://t.me/htmlacademy">
-              <span class="visually-hidden">Telegram</span>
-              <img src="" alt="Логотип Telegram">
+              <img src="images/global/footer-telegram.svg" width="18px" height="16px" alt="Telegram">
             </a>
           </li>
           <li class="footer-social-item">
             <a class="button"  href="https://www.youtube.com/user/htmlacademyru">
-              <span class="visually-hidden">Youtube</span>
-              <img src="" alt="Логотип Youtube">
+              <img src="images/global/footer-youtube.svg" width="22px" height="17px"  alt="Youtube">
             </a>
           </li>
         </ul>
         <a class="contact-adress-phone"  href="tel:+78128121212">+7 (812) 812-12-12</a>
         <p class="about-text">
           <a class="htmlacademy-link" href="https://htmlacademy.ru/">
-            .html academy
+            <img src="images/global/footer-html-academy.svg" width="115px" height="32.9px" alt="html Academy">
           </a>
         </p>
       </address>
