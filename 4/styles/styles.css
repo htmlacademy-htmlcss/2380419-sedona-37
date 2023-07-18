@@ -1,0 +1,253 @@
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/pt-sans-regular.woff2") format("woff2");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/pt-sans-bold.woff2") format("woff2");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "PT Sans";
+    font-style: italic;
+    font-weight: 400;
+    src: url("../fonts/pt-sans-italic.woff2") format("woff2");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "PT Sans";
+    font-style: italic;
+    font-weight: 700;
+    src: url("../fonts/pt-sans-bold-italic.woff2") format("woff2");
+    font-display: swap;
+  }
+
+  /* PT Sans Narrow */
+  @font-face {
+    font-family: "PT Sans Narrow";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/pt-sans-narrow-bold.woff2") format("woff2");
+    font-display: swap;
+  }
+
+
+  body {
+    font-family: "PT Sans", sans-serif;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    background: #F2F2F2;
+    color: black;
+  }
+
+  .page-header, .main-inner {
+    background-color: #FFF;
+  }
+  .page-main {
+    background-color: #FFFFFF;
+  }
+  ul, ol {
+    list-style: none;
+  }
+
+  .navigation-link, .button-search{
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .header-term {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    text-transform: uppercase;
+  }
+
+  .header-defenition {
+    color: #333;
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  .term {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+  }
+
+  .defenition {
+    color: #333;
+  }
+
+  .advantages-list .first, .advantages-list .fifth {
+    background-color: #82B3D3;
+    color: #FFFFFF;
+  }
+
+  .advantages-list .third {
+    background-color: rgba(131, 179, 211, 0.20);
+  }
+
+  .advantages-list .second,
+  .advantages-list .fourth,
+  .services-list .first,
+  .services-list .third {
+    background-color: rgba(131, 179, 211, 0.12);
+  }
+
+  .services-list .second {
+    background-color: #FFFFFF;
+  }
+
+  .inner-header {
+    color: #FFFFFF;
+    background-color: #82B3D3;
+    background-image: url("/images/hotels/background-image.jpg");
+    background-repeat: no-repeat;
+    background-size: 1200px;
+    background-position: center;
+  }
+
+  .header-title {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 78px;
+  }
+
+  .breadcrumbs-link {
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+
+  .breadcrumbs {
+    font-size: 16px;
+  }
+
+  fieldset {
+    border: 0;
+  }
+
+  .legend {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+
+  .label {
+    font-size: 18px;
+    font-style: normal;
+    line-height: 23px;
+  }
+
+  .price-label {
+    line-height: 24px;
+  }
+
+  .search {
+    background-color: #FFFFFF;
+  }
+
+  .result-navigation {
+    background-color: #FFFFFF;
+  }
+
+  .result-title {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    text-transform: uppercase;
+  }
+
+  .hotel-card {
+    background-color: #FFFFFF;
+    color: #333;
+    border-radius: 4px;
+    border: 1px solid #E6E6E6;
+  }
+
+  .product-card-title {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+  }
+
+  .rating-number {
+    background-color: #F2F2F2;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+  }
+
+  rating-stars {
+    background-image: url("/images/hotels/star.svg");
+    background-repeat: repeat-x;
+    background-size: 18px;
+  }
+
+  .button {
+    background-color: #756157;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+  }
+
+  .pagination {
+    background: #FFFFFF;
+  }
+  .pagination-link {
+    background-color: #82B3D3;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 36px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  .pagination-current {
+    background-color: #F2F2F2;
+    color: #000;
+  }
+
+  .subscription {
+    color: #FFFFFF;
+    background-color: #82B3D3;
+    background-image: url("/images/global/subscription-background.jpg");
+    background-repeat: no-repeat;
+    background-size: 1200px;
+    background-position: center;
+    padding: 96px 258px 104px 258px;
+  }
+  .subscription .header-defenition {
+    color:#FFFFFF;
+  }
+
+  .contact-adress {
+    background-color: #FFFFFF;
+
+  }
+
+  .contact-adress-phone {
+    text-decoration: none;
+    font-style: normal;
+    color: black;
+  }
